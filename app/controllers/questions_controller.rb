@@ -1,8 +1,7 @@
 class QuestionsController < ApplicationController
   before_action :set_question, only: [:show, :edit, :update, :destroy]
 
-  belongs_to :quiz
-  has_many :words
+
 
   # GET /questions
   # GET /questions.json
