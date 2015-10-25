@@ -1,6 +1,8 @@
 class WordsController < ApplicationController
   before_action :set_word, only: [:show, :edit, :update, :destroy]
 
+  belongs_to :question
+
   # GET /words
   # GET /words.json
   def index
