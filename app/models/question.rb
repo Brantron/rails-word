@@ -1,4 +1,4 @@
 class Question < ActiveRecord::Base
-	  belongs_to :quiz
+	belongs_to :quiz
   has_many :words
 end
